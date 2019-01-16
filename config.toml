@@ -1,0 +1,84 @@
+baseurl = "https://cyris.pen.moe/"
+languageCode = "en-us"
+Title = "Cyris's pen"
+theme = "hugo_theme_pickles"
+publishDir = "docs"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; 2019 Cyris. Powered by Hugo, Pickles."
+custom_css = "/static/css/custom.css"
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "cyris_moe"
+  facebook = ""
+  instagram = ""
+  googleplus = "" # https://plus.google.com/u/0/xxxxxx
+  github = "iCyris"
+  gitlab = ""
+  npm = ""
+  codepen = ""
+  dribbble = ""
+  fivehundredpx = "" # 500px
+  flickr = ""
+  pinterest = ""
+  tumblr = ""
+  vimeo = ""
+  youtube = ""
+  linkedin = ""
+  # Disqus shortname
+  disqus = ""
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+  author = "Cyris"
+  authorwebsite = "cyris.moe"
+  avatar = "https://cdn.jsdelivr.net/npm/cyris@1.0.1/img/profile.png"
+  contact = ""
+  bio = "Front-end Web Developer"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = ""
+  # Logo image. This is displayed ogp image.
+  logo = "/path/to/logo"
+  favicon = "https://cdn.jsdelivr.net/npm/cyris@1.0.1/favicon.png"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2019"
+
