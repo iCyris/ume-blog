@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Cyris. Powered by Hugo, Pickles.</copyright>
-    <lastBuildDate>Wed, 16 Jan 2019 23:08:44 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jan 2019 20:27:44 +0800</lastBuildDate>
     
 	<atom:link href="https://cyris.pen.moe/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dream Talk</title>
+      <link>https://cyris.pen.moe/posts/dream-talk/</link>
+      <pubDate>Sun, 20 Jan 2019 20:27:44 +0800</pubDate>
+      
+      <guid>https://cyris.pen.moe/posts/dream-talk/</guid>
+      <description>&lt;p&gt;我曾出现在你的梦里吗？&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hello World</title>
