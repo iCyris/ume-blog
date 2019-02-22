@@ -19,7 +19,7 @@ copyright = ""
   # The path to your images
   favicon = "https://cdn.jsdelivr.net/npm/cyris@1.0.1/favicon.png"
   logo = "https://cdn.jsdelivr.net/npm/cyris@1.0.1/favicon.png"
-  avatar = "/images/profile.png"
+  avatar = "/images/avatar.jpg"
   displayImg = "/images/display.png"
   
   # This will display on the index page
