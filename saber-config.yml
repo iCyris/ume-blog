@@ -1,0 +1,32 @@
+theme: "./themes/Ume"
+
+siteConfig:
+  title: "Cyris's Pen"
+  description: "Cyris's blog"
+  url: "https://cyris.moe"
+  author: "Cyris"
+  email: "cyris@pen.moe"
+
+themeConfig:
+  title: "Cyris's Pen"
+  subTitle: "像猫一样充满好奇"
+  copyRight: "© Cyris's Pen"
+  sideBar:
+    - title: "About"
+      link: "/about.html"
+    - title: "Friends"
+      link: "/friends.html"
+
+markdown:
+  highlighter: "prism"
+
+plugins:
+  - resolve: "saber-plugin-google-analytics"
+    options: 
+      trackId: "UA-120896908-1"
+  
+  - resolve: "saber-generator-feed"
+  
+  # inject posts to / and generate tags page
+  # saber no longer does this automatically so we add this plugin
+  - resolve: "saber-query-posts"
