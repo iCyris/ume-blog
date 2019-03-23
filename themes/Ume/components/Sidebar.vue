@@ -8,7 +8,7 @@
             </saber-link>
         </div>
         <div class="site-nav">
-            <div class="nav-item" v-if="checkWidth()">
+            <div class="nav-item" v-if="screenWidth <= 760">
                 <saber-link :to="spHome.link">{{ spHome.title }}</saber-link>
             </div>
             <div class="nav-item" v-for="(item, index) in nav" :key="index">
@@ -35,11 +35,12 @@
                 subTitle: themeConfig.subTitle,
                 nav: themeConfig.sideBar,
                 spHome: themeConfig.spHome,
-                screenWidth: typeof document === 'object' ? document.documentElement.clientWidth : ''
+                screenWidth: ''
             }
         },
 
         mounted: function () {
+            this.screenWidth = document.documentElement.clientWidth
             window.addEventListener('resize', this.handleResize)
         },
         beforeDestroy: function () {
@@ -49,11 +50,7 @@
         methods: {
             handleResize (event) {
                 this.screenWidth = document.documentElement.clientWidth
-            },
-            checkWidth () {
-                return (this.screenWidth !== '' && this.screenWidth < 760)
             }
-
         }
     }
 </script>
