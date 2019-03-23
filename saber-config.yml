@@ -17,6 +17,11 @@ themeConfig:
     - title: "Friends"
       link: "/friends.html"
 
+  # The Home section on sidebar (mobile)
+  spHome:
+      title: "Home"
+      link: "/"
+
 markdown:
   highlighter: "prism"
 
