@@ -3,21 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "saber",
-    "generate": "saber generate",
-    "build": "saber generate && rm -rf docs && mv .saber/public docs"
+    "build": "saber build",
+    "publish": "saber build && rm -rf docs && mv .saber/public docs"
   },
   "devDependencies": {
-    "node-sass": "*",
-    "saber": "^0.2.22",
-    "sass-loader": "*"
+    "saber": "latest",
+    "saber-plugin-generate-feed": "^0.2.0",
+    "saber-plugin-query-posts": "^0.1.0",
+    "saber-theme-ume": "latest"
   },
   "dependencies": {
-    "saber": "^0.2.22",
-    "saber-highlighter-prism": "^0.1.2",
-    "saber-generator-feed": "^0.0.2",
+    "saber-highlighter-prism": "^0.2.0",
     "saber-plugin-google-analytics": "^0.0.3",
-    "saber-query-posts": "^0.0.2"
+    "saber-theme-ume": "^1.0.3"
   }
 }

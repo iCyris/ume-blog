@@ -1,4 +1,4 @@
-theme: "./themes/Ume"
+theme: ume
 
 siteConfig:
   title: "Cyris's Pen"
@@ -26,12 +26,8 @@ markdown:
   highlighter: "prism"
 
 plugins:
+  - resolve: saber-plugin-query-posts
+  - resolve: saber-plugin-generate-feed
   - resolve: "saber-plugin-google-analytics"
     options: 
       trackId: "UA-120896908-1"
-  
-  - resolve: "saber-generator-feed"
-  
-  # inject posts to / and generate tags page
-  # saber no longer does this automatically so we add this plugin
-  - resolve: "saber-query-posts"
