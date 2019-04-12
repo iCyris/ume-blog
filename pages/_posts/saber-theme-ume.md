@@ -2,6 +2,8 @@
 title: Saber Theme Ume
 date: 2019-03-19
 layout: page
+tags:
+- Themes
 ---
 
 [ウメ - Ume](https://github.com/iCyris/Ume)

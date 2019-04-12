@@ -3642,15 +3642,9 @@ saber-plugin-query-posts@^0.1.0:
     slugo "^0.2.3"
     url-join "^4.0.0"
 
-saber-theme-minima@latest:
-  version "1.1.2"
-  resolved "http://registry.npm.taobao.org/saber-theme-minima/download/saber-theme-minima-1.1.2.tgz#b26f474cacfec675c9cca27856073826bf53f5e6"
-  dependencies:
-    tinydate "^1.0.1"
-
-saber-theme-ume@^1.0.3:
-  version "1.0.3"
-  resolved "http://registry.npm.taobao.org/saber-theme-ume/download/saber-theme-ume-1.0.3.tgz#06a6612457997dabccb75a04401bdb5a8b297610"
+saber-theme-ume@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.taobao.org/saber-theme-ume/download/saber-theme-ume-1.1.0.tgz#5326d3a0b9bcdb89694f4209e52faca3fff9c0b3"
 
 saber-utils@^0.1.0:
   version "0.1.0"
@@ -4116,10 +4110,6 @@ timsort@^0.3.0:
 tiny-emitter@^2.0.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/tiny-emitter/download/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
-
-tinydate@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/tinydate/download/tinydate-1.0.1.tgz#5e38797e2e3e79ce2300543f586c6caa2dfcf668"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"

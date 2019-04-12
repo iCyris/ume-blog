@@ -2,6 +2,8 @@
 title: "Hugo Theme Yuki"
 date: 2019-01-28
 layout: page
+tags:
+- Themes
 ---
 
 # Yuki [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/iCyris/hugo-theme-yuki/blob/master/LICENSE)
