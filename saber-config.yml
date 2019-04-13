@@ -16,6 +16,8 @@ themeConfig:
       link: "/about.html"
     - title: "Friends"
       link: "/friends.html"
+    - title: "Tags"
+      link: "/tags.html"
 
   # The Home section on sidebar (mobile)
   spHome:
