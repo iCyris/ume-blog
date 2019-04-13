@@ -58,7 +58,7 @@ Please see the sample [`config.toml`](https://github.com/iCyris/hugo-theme-yuki/
 
 Posts should generally go under a `content/post` directory. Typically you would run:
 
-````sh
+````shell
 hugo new post/your-new-post.md
 ````
 
@@ -68,7 +68,7 @@ For posts to appear on your site, you may need `draft = false` in the post's fro
 
 Custom pages such as an About page should preferably go under `content/pages` or be present at the root of the `content` directory.
 
-````sh
+````shell
 hugo new pages/about.md
 ````
 
