@@ -42,6 +42,7 @@ tags:
 * [Font Awesome](https://fontawesome.com/?from=io)：非常全，样式好看，很多开发者使用的一套 icon。
 
 ### Font
+* [Google Fonts](https://fonts.google.com/)
 * [FontShop](https://www.fontshop.com/)
 
 ### 配色
@@ -53,4 +54,6 @@ tags:
 * [Hero Patterns](http://www.heropatterns.com/)：免费，支持自定义颜色，可以直接下载 svg，也可以直接用生成的 CSS 代码。纹理种类较少。
 * [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)：免费，支持预览，可直接下载资源包。这里的纹理就比较多了，不过不支持更改颜色。
 
+### 图片压缩
+* [TinyPNG](https://tinypng.com/)
 
