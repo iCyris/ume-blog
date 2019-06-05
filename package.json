@@ -7,16 +7,16 @@
   "scripts": {
     "dev": "saber",
     "build": "saber build",
-    "publish": "saber build && rm -rf docs && mv .saber/public docs"
+    "publish": "saber build && rm -rf docs && mv ./public docs"
   },
   "devDependencies": {},
   "dependencies": {
-    "saber": "^0.4.2",
+    "saber": "^0.6.7",
     "saber-highlighter-prism": "^0.2.0",
-    "saber-plugin-generate-feed": "^0.2.0",
+    "saber-plugin-feed": "^0.3.0",
     "saber-plugin-google-analytics": "^0.0.3",
-    "saber-plugin-query-posts": "^0.1.0",
-    "saber-theme-ume": "^1.2.1",
+    "saber-plugin-query-posts": "^0.3.0",
+    "saber-theme-ume": "^2.0.0",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0"
   }
