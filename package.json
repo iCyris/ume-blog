@@ -13,7 +13,7 @@
   "dependencies": {
     "saber": "^0.6.7",
     "saber-highlighter-prism": "^0.2.0",
-    "saber-plugin-feed": "^0.3.0",
+    "saber-plugin-feed": "^0.3.4",
     "saber-plugin-google-analytics": "^0.0.3",
     "saber-plugin-query-posts": "^0.3.0",
     "saber-theme-ume": "^2.0.0",
